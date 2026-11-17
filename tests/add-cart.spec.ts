@@ -11,5 +11,5 @@ test('add-cart', async ({ page }) => {
   await page.locator('[data-test="shopping-cart-link"]').click();
   await expect(
     page.getByText('Sauce Labs Backpack')
-  ).toBeVisible
+  ).toBeVisible();
 });
