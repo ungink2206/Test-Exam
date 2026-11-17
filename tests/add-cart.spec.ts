@@ -12,4 +12,6 @@ test('add-cart', async ({ page }) => {
   await expect(
     page.getByText('Sauce Labs Backpack')
   ).toBeVisible();
+
+  
 });
